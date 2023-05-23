@@ -14,6 +14,10 @@ sudo systemctl restart postfix
 ```
 
 (iv) Mail was sent from the user __davidakalugo__ to the __root__ user.
+```
+echo "Test email body" | mail -s "Test email subject line" root@google.davidaltschool.me
+```
+(v) Mail was received
 ![mail](google.png)
 
 # 2. Web Server
